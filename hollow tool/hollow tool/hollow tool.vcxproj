@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{10C768A4-9FDD-4CCD-B235-DE7126EB39D9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>hollowtool</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <ProjectName>hollow knight demo</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Bee.h" />
+    <ClInclude Include="Beetle.h" />
+    <ClInclude Include="bossRoom.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="cameraManager.h" />
+    <ClInclude Include="Cloak.h" />
+    <ClInclude Include="collisionManager.h" />
+    <ClInclude Include="dartMount.h" />
+    <ClInclude Include="Dash.h" />
+    <ClInclude Include="Dash2Idle.h" />
+    <ClInclude Include="Death.h" />
+    <ClInclude Include="DoubleJump.h" />
+    <ClInclude Include="DownSlash.h" />
+    <ClInclude Include="Effect.h" />
+    <ClInclude Include="effectManager.h" />
+    <ClInclude Include="EF_Dash.h" />
+    <ClInclude Include="EF_DoubleJump.h" />
+    <ClInclude Include="EF_DownSlash.h" />
+    <ClInclude Include="EF_Fire.h" />
+    <ClInclude Include="EF_Focus.h" />
+    <ClInclude Include="EF_Slash.h" />
+    <ClInclude Include="EF_Slash2.h" />
+    <ClInclude Include="EF_UpSlash.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="enemyManager.h" />
+    <ClInclude Include="Fall.h" />
+    <ClInclude Include="FalseKnight.h" />
+    <ClInclude Include="Fire.h" />
+    <ClInclude Include="Focus.h" />
+    <ClInclude Include="Focus2Idle.h" />
+    <ClInclude Include="Geo.h" />
+    <ClInclude Include="Hook.h" />
+    <ClInclude Include="Idle.h" />
+    <ClInclude Include="Inventory.h" />
+    <ClInclude Include="inventoryManager.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="itemManager.h" />
+    <ClInclude Include="Jump.h" />
+    <ClInclude Include="LookDown.h" />
+    <ClInclude Include="LookDown2Idle.h" />
+    <ClInclude Include="LookUp.h" />
+    <ClInclude Include="LookUp2Idle.h" />
+    <ClInclude Include="Mace.h" />
+    <ClInclude Include="Mush.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="playGround.h" />
+    <ClInclude Include="printManager.h" />
+    <ClInclude Include="randomFunction.h" />
+    <ClInclude Include="Run.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="sceneManager.h" />
+    <ClInclude Include="Slash.h" />
+    <ClInclude Include="stage0.h" />
+    <ClInclude Include="stage1.h" />
+    <ClInclude Include="stage2.h" />
+    <ClInclude Include="stage3.h" />
+    <ClInclude Include="State.h" />
+    <ClInclude Include="stateManager.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="gameNode.h" />
+    <ClInclude Include="image.h" />
+    <ClInclude Include="imageManager.h" />
+    <ClInclude Include="keyManager.h" />
+    <ClInclude Include="macroFunc.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="singletonBase.h" />
+    <ClInclude Include="Stun.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="timeManager.h" />
+    <ClInclude Include="timer.h" />
+    <ClInclude Include="uiManager.h" />
+    <ClInclude Include="UpSlash.h" />
+    <ClInclude Include="utils.h" />
+    <ClInclude Include="Wall.h" />
+    <ClInclude Include="WallJump.h" />
+    <ClInclude Include="Wing.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bee.cpp" />
+    <ClCompile Include="Beetle.cpp" />
+    <ClCompile Include="bossRoom.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="cameraManager.cpp" />
+    <ClCompile Include="Cloak.cpp" />
+    <ClCompile Include="collisionManager.cpp" />
+    <ClCompile Include="dartMount.cpp" />
+    <ClCompile Include="Dash.cpp" />
+    <ClCompile Include="Dash2Idle.cpp" />
+    <ClCompile Include="Death.cpp" />
+    <ClCompile Include="DoubleJump.cpp" />
+    <ClCompile Include="DownSlash.cpp" />
+    <ClCompile Include="Effect.cpp" />
+    <ClCompile Include="effectManager.cpp" />
+    <ClCompile Include="EF_Dash.cpp" />
+    <ClCompile Include="EF_DoubleJump.cpp" />
+    <ClCompile Include="EF_DownSlash.cpp" />
+    <ClCompile Include="EF_Fire.cpp" />
+    <ClCompile Include="EF_Focus.cpp" />
+    <ClCompile Include="EF_Slash.cpp" />
+    <ClCompile Include="EF_Slash2.cpp" />
+    <ClCompile Include="EF_UpSlash.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="enemyManager.cpp" />
+    <ClCompile Include="Fall.cpp" />
+    <ClCompile Include="FalseKnight.cpp" />
+    <ClCompile Include="Fire.cpp" />
+    <ClCompile Include="Focus.cpp" />
+    <ClCompile Include="Focus2Idle.cpp" />
+    <ClCompile Include="gameNode.cpp" />
+    <ClCompile Include="Geo.cpp" />
+    <ClCompile Include="Hook.cpp" />
+    <ClCompile Include="Idle.cpp" />
+    <ClCompile Include="image.cpp" />
+    <ClCompile Include="imageManager.cpp" />
+    <ClCompile Include="Inventory.cpp" />
+    <ClCompile Include="inventoryManager.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="itemManager.cpp" />
+    <ClCompile Include="Jump.cpp" />
+    <ClCompile Include="keyManager.cpp" />
+    <ClCompile Include="LookDown.cpp" />
+    <ClCompile Include="LookDown2Idle.cpp" />
+    <ClCompile Include="LookUp.cpp" />
+    <ClCompile Include="LookUp2Idle.cpp" />
+    <ClCompile Include="Mace.cpp" />
+    <ClCompile Include="Mush.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="playGround.cpp" />
+    <ClCompile Include="printManager.cpp" />
+    <ClCompile Include="Run.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="sceneManager.cpp" />
+    <ClCompile Include="Slash.cpp" />
+    <ClCompile Include="stage0.cpp" />
+    <ClCompile Include="stage1.cpp" />
+    <ClCompile Include="stage2.cpp" />
+    <ClCompile Include="stage3.cpp" />
+    <ClCompile Include="State.cpp" />
+    <ClCompile Include="stateManager.cpp" />
+    <ClCompile Include="Stun.cpp" />
+    <ClCompile Include="timeManager.cpp" />
+    <ClCompile Include="timer.cpp" />
+    <ClCompile Include="uiManager.cpp" />
+    <ClCompile Include="UpSlash.cpp" />
+    <ClCompile Include="utils.cpp" />
+    <ClCompile Include="Wall.cpp" />
+    <ClCompile Include="WallJump.cpp" />
+    <ClCompile Include="Wing.cpp" />
+    <ClCompile Include="winMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="hollow tool.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="hollow tool.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

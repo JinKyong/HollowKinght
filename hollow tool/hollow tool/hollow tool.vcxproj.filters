@@ -1,0 +1,532 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="playGround">
+      <UniqueIdentifier>{102e8e2a-08f0-4d1a-9518-f962db17ac8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFramework">
+      <UniqueIdentifier>{88858adf-1d12-4eef-b1b1-4d1182991ab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFramework\image">
+      <UniqueIdentifier>{d5727741-831e-469d-813e-9b81fa68e8c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFramework\Manager">
+      <UniqueIdentifier>{bda88233-7ace-4e1f-b2ae-50798a2ce097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFramework\SingletonBase">
+      <UniqueIdentifier>{2efa0688-164f-4d7a-b436-40b813c5d1e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFramework\Utils">
+      <UniqueIdentifier>{6b4367db-823f-481b-8f4e-4058df841a56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFramework\timer">
+      <UniqueIdentifier>{266e2a30-2350-4fae-920a-f6cbe2c17d2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\stage">
+      <UniqueIdentifier>{7658ce74-9d07-4efa-86bc-cd3c16d1ebc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\state">
+      <UniqueIdentifier>{cb72a3e0-2a98-4292-ba68-d25ce16bed33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\state\base">
+      <UniqueIdentifier>{a9993cf7-13c4-46a2-85d8-b8879b8d941c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\player">
+      <UniqueIdentifier>{c14dfd43-15d6-4e62-bb3a-9080e61bed92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\stage\base">
+      <UniqueIdentifier>{6a30e81e-c79a-48a8-80a0-0174fd287f66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\enemy">
+      <UniqueIdentifier>{0081132c-d3f4-4585-91d6-9714af8047f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\enemy\base">
+      <UniqueIdentifier>{3f058a69-d1ad-4289-81e8-aabcbf40f70b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\enemy\Bullet">
+      <UniqueIdentifier>{fb0c580f-b72c-4f19-ab28-91f04465c124}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\item">
+      <UniqueIdentifier>{b2aa505c-72c7-40f6-9134-ed9e6f9c9606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\item\base">
+      <UniqueIdentifier>{733c14f3-aa52-47f0-9da3-4845bc6c99f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\effect">
+      <UniqueIdentifier>{cda60616-6f70-4a5e-927f-1f99a19d8484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\effect\base">
+      <UniqueIdentifier>{74250cd0-d9bf-42cc-bba5-e7eaccb389e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>2DFramework\image</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>2DFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>2DFramework\SingletonBase</Filter>
+    </ClInclude>
+    <ClInclude Include="macroFunc.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>2DFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="playGround.h">
+      <Filter>playGround</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>2DFramework\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>2DFramework\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>2DFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cameraManager.h">
+      <Filter>2DFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>2DFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>playGround\state\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>playGround\player</Filter>
+    </ClInclude>
+    <ClInclude Include="Idle.h">
+      <Filter>playGround\state</Filter>
+    </ClInclude>
+    <ClInclude Include="Run.h">
+      <Filter>playGround\state</Filter>
+    </ClInclude>
+    <ClInclude Include="Jump.h">
+      <Filter>playGround\state</Filter>
+    </ClInclude>
+    <ClInclude Include="Fall.h">
+      <Filter>playGround\state</Filter>
+    </ClInclude>
+    <ClInclude Include="stage0.h">
+      <Filter>playGround\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="dartMount.h">
+      <Filter>playGround\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="stage1.h">
+      <Filter>playGround\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="stateManager.h">
+      <Filter>2DFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>playGround\stage\base</Filter>
+    </ClInclude>
+    <ClInclude Include="bossRoom.h">
+      <Filter>playGround\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="stage2.h">
+      <Filter>playGround\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="stage3.h">
+      <Filter>playGround\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Dash.h">
+      <Filter>playGround\state</Filter>
+    </ClInclude>
+    <ClInclude Include="Dash2Idle.h">
+      <Filter>playGround\state</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleJump.h">
+      <Filter>playGround\state</Filter>
+    </ClInclude>
+    <ClInclude Include="Focus.h">
+      <Filter>playGround\state</Filter>
+    </ClInclude>
+    <ClInclude Include="Focus2Idle.h">
+      <Filter>playGround\state</Filter>
+    </ClInclude>
+    <ClInclude Include="Slash.h">
+      <Filter>playGround\state</Filter>
+    </ClInclude>
+    <ClInclude Include="Fire.h">
+      <Filter>playGround\state</Filter>
+    </ClInclude>
+    <ClInclude Include="printManager.h">
+      <Filter>2DFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="LookUp.h">
+      <Filter>playGround\state</Filter>
+    </ClInclude>
+    <ClInclude Include="LookDown.h">
+      <Filter>playGround\state</Filter>
+    </ClInclude>
+    <ClInclude Include="LookUp2Idle.h">
+      <Filter>playGround\state</Filter>
+    </ClInclude>
+    <ClInclude Include="LookDown2Idle.h">
+      <Filter>playGround\state</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>playGround\enemy\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Mush.h">
+      <Filter>playGround\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Beetle.h">
+      <Filter>playGround\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Bee.h">
+      <Filter>playGround\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyManager.h">
+      <Filter>playGround\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="collisionManager.h">
+      <Filter>2DFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Stun.h">
+      <Filter>playGround\state</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>playGround\enemy\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>playGround\state</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>2DFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>playGround\item\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Geo.h">
+      <Filter>playGround\item</Filter>
+    </ClInclude>
+    <ClInclude Include="Cloak.h">
+      <Filter>playGround\item</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook.h">
+      <Filter>playGround\item</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>playGround\effect\base</Filter>
+    </ClInclude>
+    <ClInclude Include="EF_Slash.h">
+      <Filter>playGround\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="effectManager.h">
+      <Filter>playGround\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="EF_Slash2.h">
+      <Filter>playGround\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="EF_Dash.h">
+      <Filter>playGround\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="EF_Focus.h">
+      <Filter>playGround\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="EF_Fire.h">
+      <Filter>playGround\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="uiManager.h">
+      <Filter>2DFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="itemManager.h">
+      <Filter>playGround\item</Filter>
+    </ClInclude>
+    <ClInclude Include="Wing.h">
+      <Filter>playGround\item</Filter>
+    </ClInclude>
+    <ClInclude Include="inventoryManager.h">
+      <Filter>2DFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>playGround\state</Filter>
+    </ClInclude>
+    <ClInclude Include="Death.h">
+      <Filter>playGround\state</Filter>
+    </ClInclude>
+    <ClInclude Include="DownSlash.h">
+      <Filter>playGround\state</Filter>
+    </ClInclude>
+    <ClInclude Include="UpSlash.h">
+      <Filter>playGround\state</Filter>
+    </ClInclude>
+    <ClInclude Include="WallJump.h">
+      <Filter>playGround\state</Filter>
+    </ClInclude>
+    <ClInclude Include="FalseKnight.h">
+      <Filter>playGround\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EF_DownSlash.h">
+      <Filter>playGround\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="EF_UpSlash.h">
+      <Filter>playGround\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Mace.h">
+      <Filter>playGround\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EF_DoubleJump.h">
+      <Filter>playGround\effect</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="hollow tool.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="hollow tool.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="winMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>2DFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>2DFramework\image</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>2DFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>2DFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="playGround.cpp">
+      <Filter>playGround</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>2DFramework\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>2DFramework\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>2DFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cameraManager.cpp">
+      <Filter>2DFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>2DFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>playGround\state\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>playGround\player</Filter>
+    </ClCompile>
+    <ClCompile Include="Idle.cpp">
+      <Filter>playGround\state</Filter>
+    </ClCompile>
+    <ClCompile Include="Run.cpp">
+      <Filter>playGround\state</Filter>
+    </ClCompile>
+    <ClCompile Include="Jump.cpp">
+      <Filter>playGround\state</Filter>
+    </ClCompile>
+    <ClCompile Include="Fall.cpp">
+      <Filter>playGround\state</Filter>
+    </ClCompile>
+    <ClCompile Include="stage0.cpp">
+      <Filter>playGround\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="dartMount.cpp">
+      <Filter>playGround\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="stage1.cpp">
+      <Filter>playGround\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="stateManager.cpp">
+      <Filter>2DFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>playGround\stage\base</Filter>
+    </ClCompile>
+    <ClCompile Include="bossRoom.cpp">
+      <Filter>playGround\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="stage2.cpp">
+      <Filter>playGround\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="stage3.cpp">
+      <Filter>playGround\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Dash.cpp">
+      <Filter>playGround\state</Filter>
+    </ClCompile>
+    <ClCompile Include="Dash2Idle.cpp">
+      <Filter>playGround\state</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleJump.cpp">
+      <Filter>playGround\state</Filter>
+    </ClCompile>
+    <ClCompile Include="Focus.cpp">
+      <Filter>playGround\state</Filter>
+    </ClCompile>
+    <ClCompile Include="Focus2Idle.cpp">
+      <Filter>playGround\state</Filter>
+    </ClCompile>
+    <ClCompile Include="Slash.cpp">
+      <Filter>playGround\state</Filter>
+    </ClCompile>
+    <ClCompile Include="Fire.cpp">
+      <Filter>playGround\state</Filter>
+    </ClCompile>
+    <ClCompile Include="printManager.cpp">
+      <Filter>2DFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="LookDown.cpp">
+      <Filter>playGround\state</Filter>
+    </ClCompile>
+    <ClCompile Include="LookUp.cpp">
+      <Filter>playGround\state</Filter>
+    </ClCompile>
+    <ClCompile Include="LookUp2Idle.cpp">
+      <Filter>playGround\state</Filter>
+    </ClCompile>
+    <ClCompile Include="LookDown2Idle.cpp">
+      <Filter>playGround\state</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>playGround\enemy\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Mush.cpp">
+      <Filter>playGround\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Beetle.cpp">
+      <Filter>playGround\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Bee.cpp">
+      <Filter>playGround\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyManager.cpp">
+      <Filter>playGround\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="collisionManager.cpp">
+      <Filter>2DFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Stun.cpp">
+      <Filter>playGround\state</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>playGround\enemy\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>playGround\state</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>playGround\item\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Geo.cpp">
+      <Filter>playGround\item</Filter>
+    </ClCompile>
+    <ClCompile Include="Cloak.cpp">
+      <Filter>playGround\item</Filter>
+    </ClCompile>
+    <ClCompile Include="Hook.cpp">
+      <Filter>playGround\item</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>playGround\effect\base</Filter>
+    </ClCompile>
+    <ClCompile Include="EF_Slash.cpp">
+      <Filter>playGround\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="effectManager.cpp">
+      <Filter>playGround\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="EF_Slash2.cpp">
+      <Filter>playGround\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="EF_Dash.cpp">
+      <Filter>playGround\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="EF_Focus.cpp">
+      <Filter>playGround\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="EF_Fire.cpp">
+      <Filter>playGround\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="uiManager.cpp">
+      <Filter>2DFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="itemManager.cpp">
+      <Filter>playGround\item</Filter>
+    </ClCompile>
+    <ClCompile Include="Wing.cpp">
+      <Filter>playGround\item</Filter>
+    </ClCompile>
+    <ClCompile Include="inventoryManager.cpp">
+      <Filter>2DFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>playGround\state</Filter>
+    </ClCompile>
+    <ClCompile Include="Death.cpp">
+      <Filter>playGround\state</Filter>
+    </ClCompile>
+    <ClCompile Include="DownSlash.cpp">
+      <Filter>playGround\state</Filter>
+    </ClCompile>
+    <ClCompile Include="UpSlash.cpp">
+      <Filter>playGround\state</Filter>
+    </ClCompile>
+    <ClCompile Include="WallJump.cpp">
+      <Filter>playGround\state</Filter>
+    </ClCompile>
+    <ClCompile Include="FalseKnight.cpp">
+      <Filter>playGround\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EF_DownSlash.cpp">
+      <Filter>playGround\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="EF_UpSlash.cpp">
+      <Filter>playGround\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Mace.cpp">
+      <Filter>playGround\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EF_DoubleJump.cpp">
+      <Filter>playGround\effect</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
