@@ -1,14 +1,6 @@
 #include "stdafx.h"
 #include "cameraManager.h"
 
-cameraManager::cameraManager()
-{
-}
-
-cameraManager::~cameraManager()
-{
-}
-
 HRESULT cameraManager::init(int width, int height)
 {	
 	//backDC와 frontDC크기 설정

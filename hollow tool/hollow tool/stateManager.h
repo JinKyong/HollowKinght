@@ -19,6 +19,9 @@ private:
 
 	stateList _stateList;
 
+	stateManager() {};
+	friend singletonBase<stateManager>;
+
 public:
 	HRESULT init(Player* player);
 	void release();

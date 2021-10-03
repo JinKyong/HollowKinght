@@ -3,6 +3,8 @@
 template <typename T>
 class singletonBase
 {
+private:
+
 protected:
 	static T* singleton;
 
@@ -12,7 +14,6 @@ protected:
 public:
 	static T* getSingleton();
 	void releaseSingleton();
-
 };
 
 template <typename T>

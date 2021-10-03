@@ -26,6 +26,7 @@ HRESULT gameNode::init(bool managerInit)
 	if (_managerInit)
 	{
 		SetTimer(_hWnd, 1, 10, NULL);
+
 		KEYMANAGER->init();
 		IMAGEMANAGER->init();
 		CAMERAMANAGER->init(_backBuffer->getWidth(), _backBuffer->getHeight());

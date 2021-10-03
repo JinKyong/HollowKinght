@@ -24,10 +24,10 @@ private:
 	float _camY;	//카메라 올리고 내리고
 	bool _onMove;	//카메라 올리고 내리고 판별
 
-public:
-	cameraManager();
-	~cameraManager();
+	cameraManager() {};
+	friend singletonBase<cameraManager>;
 
+public:
 	HRESULT init(int width, int height);
 	void release();
 

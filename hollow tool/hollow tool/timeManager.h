@@ -10,10 +10,10 @@ private:
 	float _start, _end;
 	bool _onTimer;
 
-public:
 	timeManager();
-	~timeManager();
+	friend singletonBase<timeManager>;
 
+public:
 	HRESULT init();
 	void release();
 	void update(float lock = 0.0f);

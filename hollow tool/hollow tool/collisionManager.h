@@ -17,12 +17,12 @@ private:
 	//ÁöÇü
 	vector<RECT> _ground;
 	vector<RECT> _fground;
-	vector<RECT> _portal;	
+	vector<RECT> _portal;
+
+	collisionManager() {};
+	friend singletonBase<collisionManager>;
 
 public:
-	collisionManager() {};
-	~collisionManager() {};
-
 	HRESULT init();
 	HRESULT init(Scene* scene);
 	void release();

@@ -1,16 +1,6 @@
 #include "stdafx.h"
 #include "imageManager.h"
 
-
-imageManager::imageManager()
-{
-}
-
-
-imageManager::~imageManager()
-{
-}
-
 HRESULT imageManager::init()
 {
 	return S_OK;

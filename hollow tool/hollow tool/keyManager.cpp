@@ -1,16 +1,6 @@
 #include "stdafx.h"
 #include "keyManager.h"
 
-
-keyManager::keyManager()
-{
-}
-
-
-keyManager::~keyManager()
-{
-}
-
 HRESULT keyManager::init()
 {
 	//처음에 모든 키 상태는 눌려지지 않은 것으로 초기화 해둔다

@@ -7,10 +7,10 @@ private:
 	char _text[128];
 	bool _debug;
 
-public:
 	printManager() {};
-	~printManager() {};
+	friend singletonBase<printManager>;
 
+public:
 	HRESULT init();
 	void release();
 

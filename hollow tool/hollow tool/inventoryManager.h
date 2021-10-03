@@ -19,10 +19,10 @@ private:
 	bool _wing;
 	bool _open;
 
-public:
 	inventoryManager() {};
-	~inventoryManager() {};
+	friend singletonBase<inventoryManager>;
 
+public:
 	HRESULT init();
 	void release();
 	void render(HDC hdc);

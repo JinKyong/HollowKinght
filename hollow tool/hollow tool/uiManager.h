@@ -16,10 +16,10 @@ private:
 	float _soulMax;
 	float _alpha;
 
-public:
 	uiManager() {};
-	~uiManager() {};
+	friend singletonBase<uiManager>;
 
+public:
 	HRESULT init(Player* player);
 	void release();
 	void render(HDC hdc);

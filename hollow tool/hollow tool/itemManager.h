@@ -13,10 +13,10 @@ private:
 	itemList		_vItem;
 	itemListIter	_viItem;
 
-public:
 	itemManager() {};
-	~itemManager() {};
+	friend singletonBase<itemManager>;
 
+public:
 	HRESULT init();		
 	void release();		
 	void update();		
